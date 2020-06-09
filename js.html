@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>javascript</title>
+	<!--priority based so first head is excuted-->
+	<!--<script type="text/javascript">alert("hello ram welcome to my page")</script>-->
+	<!--<script type="text/javascript" src="js1.js"></script>-->
+
+
+</head>
+<body>
+	<h1>welcome to our first javascript</h1>
+	<!--<script type="text/javascript">alert("hello swathi welcome to my page")</script>-->
+	<form>
+		<input type="button" onclick="tom()"/>click me
+	</form>
+	<script>
+		var x=5;
+		var y=10;
+		var __$$=5;
+		var z=x+y+__$$;
+		//declaring variables globally
+		document.write(z);
+		//declaring function
+		function tom(){
+			document.writeln(y,x);
+		}
+		function jerry(){
+			document.writeln(__$$);
+		}
+		tom();
+		jerry();
+	</script>
+
+</body>
+</html>
